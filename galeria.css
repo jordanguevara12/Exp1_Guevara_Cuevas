@@ -1,0 +1,30 @@
+.galeria {
+    display: inline-block; /* Para que los elementos galería se muestren en línea */
+    margin-right: 50px; /* Espacio entre las galerías */
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+div.galeria{
+    margin: 150;
+    box-shadow: 0 4px 8px 0;
+    float: center;
+    width:250px;
+    
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5x purple;
+    padding: 10px;
+    margin-bottom: 50px;
+}

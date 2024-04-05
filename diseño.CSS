@@ -1,0 +1,141 @@
+body{
+     background-color: black !important;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1920px; 
+    height: auto; 
+    overflow : hidden;
+    position: relative;
+    margin: 200px auto;
+    margin-bottom: -100px;
+    border-radius: 20px;
+    top: -150px;
+    left: 0px;
+
+}
+.container img{
+    width: 100%; 
+    height: 100%;
+}
+ .container p{
+    font-size: 3rem;
+    color: white;
+ }
+
+
+/* Estilos personalizados para el carrusel */
+#demo.carousel {
+    width: 400px; /* Ancho deseado */
+    height: 600px; /* Alto deseado */
+    margin: 0 auto; /* Centra horizontalmente el carrusel */
+}
+
+/* Estilos personalizados para las imágenes del carrusel */
+#demo.carousel img {
+    width: 100%; /* Ajusta el ancho de la imagen al ancho del carrusel */
+    height: 100%; /* Ajusta la altura de la imagen al alto del carrusel */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área del contenedor manteniendo la relación de aspecto */
+}
+
+
+h2{
+    color:#f75317;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    top: 100%;
+    margin-bottom: 10px;
+
+}
+
+header{
+    display: flex;/* para que quede horizontal*/
+    min-height: 70px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 30px; /* Ajusta el margen derecho según sea necesario */
+    color: #f75317;
+}
+
+.nav-link:hover{
+    color: rgb(2, 95, 16);
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Distribuye automáticamente las columnas */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.margen {
+    margin: 100; /* Elimina el margen predeterminado de la figura */
+}
+
+.img {
+    width: 35%; /* Ajusta el tamaño de la imagen al ancho de su contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+.contenedor2 {
+    display: flex; /* Utilizamos Flexbox para alinear elementos en línea */
+    align-items: center; /* Alineamos verticalmente los elementos */
+}
+
+.gengar {
+    width: 450px; /* Ancho deseado de la imagen */
+    height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción original */
+    margin-right: 30px; /* Espacio entre la imagen y el texto */
+    margin: 100px;
+}
+
+.texto {
+    margin: 0; /* Eliminamos el margen predeterminado del párrafo */
+    color: #f75317;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+.figcaption {
+    text-align: center; /* Centra el texto */
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
